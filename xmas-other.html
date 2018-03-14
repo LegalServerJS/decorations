@@ -1,0 +1,25 @@
+<span id="jhpToHide"></span>
+<script>
+  document.getElementById("jhpToHide").parentNode.style.display="none";
+  var jhpPattern = (Math.random() < 0.5) ? "https://philalegal.org/html/pattern.png" : ((Math.random() < 0.5) ? "https://philalegal.org/html/pattern-2.png" : "https://philalegal.org/html/hanukkah-pattern.png");
+  document.getElementById("content-wrap").style.backgroundImage="url('" + jhpPattern + "')";
+  for(var els = document.getElementsByClassName('main'), i = els.length; i--;){
+    var firstDiv = els[i].getElementsByTagName('div')[0];
+    firstDiv.style.backgroundColor="#ffffff";
+    break;
+  }
+  document.getElementById("block").style.backgroundColor="#ffffff";
+  document.getElementById("block").style.backgroundImage="url('https://philalegal.org/html/lstree.png')";
+  document.getElementById("block").style.backgroundRepeat="no-repeat";
+  document.getElementById("block").style.backgroundPosition="center top";
+  document.getElementById("block").style.backgroundAttachment="fixed";
+  document.getElementById("sidebar").style.backgroundColor="#ffffff";
+  if (Math.random() < 0.7){
+    var jhpBread = document.getElementById("breadcrumbs");
+    for (var el = jhpBread.firstChild; el != null; el = el.nextSibling){
+      if (el && el.innerHTML){
+        el.innerHTML = el.innerHTML.replace("Home", "Ho Ho Home!");
+      }
+    }
+  }
+</script>

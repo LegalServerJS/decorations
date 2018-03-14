@@ -1,0 +1,11 @@
+<div id="music" style="height:480px"></div>
+<script type="text/javascript">
+  if (Math.random() < 0.2){
+    document.getElementById('music').parentNode.setAttribute("style", "cursor:url(https://philalegal.org/html/dreidel.png) 50 31, auto; background-size: 100% !important; background-color: transparent !important; background-image: url(https://philalegal.org/html/menorah.jpg) !important;");
+  }
+  else{
+    document.getElementById('music').parentNode.setAttribute("style", "cursor:url(https://philalegal.org/html/reindeercursor.png) 50 31, auto; background-color: transparent !important; background-image: url(https://philalegal.org/html/night.jpg) !important;");
+  }
+  var songs=['<audio style="cursor: auto;" controls="controls" preload="metadata"><source src="https://philalegal.org/html/Deck-the-halls-Singing-Bell.mp3" type="audio/mpeg"><source src="https://philalegal.org/html/Deck-the-halls-Singing-Bell.ogg" type="audio/ogg"><\/audio>', '<audio controls="controls" preload="metadata"><source src="https://philalegal.org/html/Jingle-Bells-Singing-Bell.mp3" type="audio/mpeg"><source src="https://philalegal.org/html/Jingle-Bells-Singing-Bell.ogg" type="audio/ogg"><\/audio>', '<audio controls="controls" preload="metadata"><source src="https://philalegal.org/html/Los-peces-en-el-rio-Singing-Bell.mp3" type="audio/mpeg"><source src="https://philalegal.org/html/Los-peces-en-el-rio-Singing-Bell.ogg" type="audio/ogg"><\/audio>', '<audio controls="controls" preload="metadata"><source src="https://philalegal.org/html/White-Christmas-Singing-Bell.mp3" type="audio/mpeg"><source src="https://philalegal.org/html/White-Christmas-Singing-Bell.ogg" type="audio/ogg"><\/audio>', '<audio controls="controls" preload="metadata"><source src="https://philalegal.org/html/dreidel.mp3" type="audio/mpeg"><source src="https://philalegal.org/html/dreidel.ogg" type="audio/ogg"><\/audio>'];
+  document.getElementById('music').innerHTML = '<span style="cursor: auto;">' + songs[Math.floor(Math.random()*5)] + "<\/span>";
+</script>		    
