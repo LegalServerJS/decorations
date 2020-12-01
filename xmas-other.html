@@ -3,6 +3,7 @@
   document.getElementById("jhpToHide").parentNode.style.display="none";
   var jhpPattern = (Math.random() < 0.5) ? "https://philalegal.org/html/pattern.png" : ((Math.random() < 0.5) ? "https://philalegal.org/html/pattern-2.png" : "https://philalegal.org/html/hanukkah-pattern.png");
   document.getElementById("content-wrap").style.backgroundImage="url('" + jhpPattern + "')";
+  document.getElementById("block").parentNode.style.backgroundColor="#ffffff";
   for(var els = document.getElementsByClassName('main'), i = els.length; i--;){
     var firstDiv = els[i].getElementsByTagName('div')[0];
     firstDiv.style.backgroundColor="#ffffff";
