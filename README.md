@@ -12,14 +12,13 @@ This GitHub repository contains the following files:
   Reindeer or a dreidel, depending on a random number.  It also
   includes an audio widget for playing a random holiday song.
 * [snow.html](https://github.com/LegalServerJS/decorations/blob/master/snow.html):
-  This adds an animation of falling snow at the top of the home
-  screen.
+  This adds an animation of falling snow at the top of the screen.
 * [xmas-lights.html](https://github.com/LegalServerJS/decorations/blob/master/xmas-lights.html):
   This adds blinking Christmas lights to the blue navigation bar of
-  the Legal Server home page.
+  the Legal Server page.
 * [xmas-other.html](https://github.com/LegalServerJS/decorations/blob/master/xmas-other.html):
   This adds a variety of other holiday decorations to the Legal Server
-  home page, such as the replacement of "Home" in the breadcrumb
+  page, such as the replacement of "Home" in the breadcrumb
   navigation with "Ho, ho, home!", "wrapping paper" in the sidebar,
   and a Christmas tree in the background.
 * [halloween.html](https://github.com/LegalServerJS/decorations/blob/master/halloween.html):
