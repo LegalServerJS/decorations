@@ -1,0 +1,37 @@
+<span id="jhpToHide"></span>
+<script>
+  document.getElementById("jhpToHide").parentNode.style.display = "none";
+  function halloween(){
+    var div = document.createElement('div');
+    var img = document.createElement('img');
+    var span = document.createElement('span');
+    div.style.position = 'absolute';
+    div.style.zIndex = 99999999999;
+    div.style.top = 0;
+    div.style.left = 0;
+    div.style.width = '100%';
+    div.style.height = '100%';
+    div.style.backgroundColor = 'black';
+    div.style.textAlign = 'center';
+    div.style.verticalAlign = 'middle';
+    div.style.whiteSpace = 'nowrap';
+    div.style.textAlign = 'center';
+    if (Math.random() < 0.1){    
+      img.src='https://philalegal.org/html/ghost.gif';
+    }
+    else{
+      img.src='https://philalegal.org/html/ghost2.gif';
+    }
+    img.style.verticalAlign = 'middle';
+    span.style.display = 'inline-block';
+    span.style.verticalAlign = 'middle';
+    span.style.height = '100%';
+    div.appendChild(span);
+    div.appendChild(img);
+    document.body.appendChild(div);
+    setTimeout(function(){ document.body.removeChild(div) }, 1000);
+  }
+  if (Math.random() < 0.2){
+    setTimeout(halloween, 500);
+  }
+</script>

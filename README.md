@@ -7,18 +7,23 @@ Server.
 
 This GitHub repository contains the following files:
 
-* [music.html](https://github.com/LegalServerJS/decorations/blob/master/music.html): This adds a picture in which the mouse cursor is
-  either Santa and Reindeer or a dreidel, depending on a random
-  number.  It also includes an audio widget for playing a random
-  holiday song.
-* [snow.html](https://github.com/LegalServerJS/decorations/blob/master/snow.html): This adds an animation of falling snow at the top of
-  the home screen.
-* [xmas-lights.html](https://github.com/LegalServerJS/decorations/blob/master/xmas-lights.html): This adds blinking Christmas lights to the blue
-  navigation bar of the Legal Server home page.
-* [xmas-other.html](https://github.com/LegalServerJS/decorations/blob/master/xmas-other.html): This adds a variety of other holiday decorations
-  to the Legal Server home page, such as the replacement of "Home" in
-  the breadcrumb navigation with "Ho, ho, home!", "wrapping paper" in
-  the sidebar, and a Christmas tree in the background.
+* [music.html](https://github.com/LegalServerJS/decorations/blob/master/music.html):
+  This adds a picture in which the mouse cursor is either Santa and
+  Reindeer or a dreidel, depending on a random number.  It also
+  includes an audio widget for playing a random holiday song.
+* [snow.html](https://github.com/LegalServerJS/decorations/blob/master/snow.html):
+  This adds an animation of falling snow at the top of the home
+  screen.
+* [xmas-lights.html](https://github.com/LegalServerJS/decorations/blob/master/xmas-lights.html):
+  This adds blinking Christmas lights to the blue navigation bar of
+  the Legal Server home page.
+* [xmas-other.html](https://github.com/LegalServerJS/decorations/blob/master/xmas-other.html):
+  This adds a variety of other holiday decorations to the Legal Server
+  home page, such as the replacement of "Home" in the breadcrumb
+  navigation with "Ho, ho, home!", "wrapping paper" in the sidebar,
+  and a Christmas tree in the background.
+* [halloween.html](https://github.com/LegalServerJS/decorations/blob/master/halloween.html):
+  A spooky ghost sometimes appears, before quickly disappearing again.
 
 You can find links to these files above.
 
@@ -44,7 +49,7 @@ Open up the instruction's properties by clicking the blue triangle.
 Check the checkbox next to "Format as HTML."  This is very important!
 
 Copy and paste the contents of one of the HTML files in this
-repository into the "Text" of the Instruction.  (When viewing the file 
+repository into the "Text" of the Instruction.  (When viewing the file
 in GitHub, it might make it easier to copy and paste if you click the
 "Raw" button; then you can copy everything with Ctrl-a.)
 
@@ -52,12 +57,18 @@ Then press "Continue" or "Save & Stay on Page" to save your work.
 
 This will decorate the Home page only.  If you want to decorate
 the Profile for cases, follow the instructions above but instead
-of choosing the "Home" profile under "Home/Section Front", choose the 
+of choosing the "Home" profile under "Home/Section Front", choose the
 "Case/Matter" module and edit the profile you use for cases.
+
+For most of the decorations, it doesn't matter where you place them
+because the instructions themselves are invisible.  However,
+[music.html](https://github.com/LegalServerJS/decorations/blob/master/music.html)
+is an exception to this.  You can place this instruction in the place
+in the page where you want the picture to appear.
 
 ## Customization
 
-The HTML snippets contain URL referencse to image files hosted on the
+The HTML snippets contain URL references to image files hosted on the
 web site of Philadelphia Legal Assistance.  E.g.,
 `https://philalegal.org/html/night.jpg` You can see what each of these
 images looks like by selecting the URL, copying it, opening a new tab
@@ -86,10 +97,17 @@ thresholds, which are numbers between 0 and 1.
 
 ## Second bonus customization: puppies tab
 
-* [puppies.html](https://github.com/LegalServerJS/decorations/blob/master/puppies.html): From the "Home/Section Front" area of your
-  "Processes, Forms, and Profiles," go to "Tab Blocks" and edit one of
-  the "tab blocks" that is used by your Home screen.  Add a "Tab"
-  called "Puppies" and include this HTML as an instruction.
+* [puppies.html](https://github.com/LegalServerJS/decorations/blob/master/puppies.html):
+  From the "Home/Section Front" area of your "Processes, Forms, and
+  Profiles," go to "Tab Blocks" and edit one of the "tab blocks" that
+  is used by your Home screen.  Add a "Tab" called "Puppies" and
+  include this HTML as an instruction.
+
+## Third bonus customization: Harry Potter spells
+
+* [lumos.html](https://github.com/LegalServerJS/decorations/blob/master/lumos.html): Lumos!
+* [wingardium.html](https://github.com/LegalServerJS/decorations/blob/master/wingardium.html):
+  Wingardium Leviosa!
 
 ## Contact
 

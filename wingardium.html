@@ -1,0 +1,18 @@
+<!-- For best results, place this in an instruction in the middle of the screen. -->
+<div style="position:static;"><a onmouseup="jhpScroll();" style="font-style:italic;cursor:pointer;">Wingardium Leviosa!</a></div>
+<script>
+  var jhpScrollSpeed = 5;
+  var jhpProgress = 0;
+  var jhpTime = 0;
+  function jhpScroll(){
+    var jhpAdvanceBy = jhpScrollSpeed - 20*Math.sin(10*jhpTime);
+    window.scrollBy(0, jhpAdvanceBy);
+    jhpTime = jhpTime + 0.007;
+    jhpScrollSpeed = 30*(1-1*jhpTime);
+    jhpProgress = jhpProgress + Math.abs(jhpAdvanceBy); 
+    if (jhpProgress < 6000){
+      setTimeout(jhpScroll, 20);
+    }
+    return;
+  }
+</script>

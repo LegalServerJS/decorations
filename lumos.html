@@ -1,0 +1,32 @@
+<div style="position:static;"><a style="font-style:italic;cursor:pointer;" onclick="lumos(event);">Lumos!</a></div>
+<script>
+  var jhpLumos;
+  function lumos(event){
+    if (!event) var event = window.event;
+    if (typeof jhpLumos != "undefined" && jhpLumos.parentNode != null){
+      return;
+    }
+    jhpLumos = document.createElement("div");
+    jhpLumos.style.backgroundImage = "url('https://docket.philalegal.org/html/lumos-dark.png')";
+    jhpLumos.style.width = "3600px";
+    jhpLumos.style.height = "2800px";
+    jhpLumos.style.position = "fixed";
+    document.body.insertBefore(jhpLumos, document.body.firstChild);
+    jhpLumos.style.top  = (event.clientY - 1400) + "px";
+    jhpLumos.style.left = (event.clientX - 1800) + "px";
+    jhpLumos.style.zIndex = 999999;
+    jhpLumos.onmousemove = jhpDrag;
+    jhpLumos.onclick = jhpCloseLumos;
+    return;
+  }
+  function jhpCloseLumos(){
+    jhpLumos.parentNode.removeChild(jhpLumos);
+  }
+  function jhpDrag(event){
+    if (!event) var event = window.event;
+    jhpLumos.style.position = "fixed";
+    jhpLumos.style.top  = (event.clientY - 1400) + "px";
+    jhpLumos.style.left = (event.clientX - 1800) + "px";
+    return;
+  }
+</script>
