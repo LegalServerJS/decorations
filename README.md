@@ -44,6 +44,11 @@ repository into the "Text" of the Instruction.
 
 Then press "Continue" or "Save & Stay on Page" to save your work.
 
+This will decorate the Home page only.  If you want to decorate
+the Profile for cases, follow the instructions above but instead
+of choosing the "Home" profile under "Home/Section Front", choose the 
+"Case/Matter" module and edit the profile you use for cases.
+
 ## Customization
 
 The HTML snippets contain URL referencse to image files hosted on the
