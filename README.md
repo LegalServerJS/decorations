@@ -5,18 +5,22 @@ Server.
 
 ## Contents
 
-* `music.html`: This adds a picture in which the mouse cursor is
+This GitHub repository contains the following files:
+
+* [music.html](https://github.com/LegalServerJS/decorations/blob/master/music.html): This adds a picture in which the mouse cursor is
   either Santa and Reindeer or a dreidel, depending on a random
   number.  It also includes an audio widget for playing a random
   holiday song.
-* `snow.html`: This adds an animation of falling snow at the top of
+* [snow.html](https://github.com/LegalServerJS/decorations/blob/master/snow.html): This adds an animation of falling snow at the top of
   the home screen.
-* `xmas-lights.html`: This adds blinking Christmas lights to the blue
+* [xmas-lights.html](https://github.com/LegalServerJS/decorations/blob/master/xmas-lights.html): This adds blinking Christmas lights to the blue
   navigation bar of the Legal Server home page.
-* `xmas-other.html`: This adds a variety of other holiday decorations
+* [xmas-other.html](https://github.com/LegalServerJS/decorations/blob/master/xmas-other.html): This adds a variety of other holiday decorations
   to the Legal Server home page, such as the replacement of "Home" in
   the breadcrumb navigation with "Ho, ho, home!", "wrapping paper" in
   the sidebar, and a Christmas tree in the background.
+
+You can find links to these files above.
 
 ## Instructions
 
@@ -40,7 +44,9 @@ Open up the instruction's properties by clicking the blue triangle.
 Check the checkbox next to "Format as HTML."  This is very important!
 
 Copy and paste the contents of one of the HTML files in this
-repository into the "Text" of the Instruction.
+repository into the "Text" of the Instruction.  (When viewing the file 
+in GitHub, it might make it easier to copy and paste if you click the
+"Raw" button; then you can copy everything with Ctrl-a.)
 
 Then press "Continue" or "Save & Stay on Page" to save your work.
 
@@ -73,14 +79,14 @@ thresholds, which are numbers between 0 and 1.
 
 ## Bonus customization: random cat picture
 
-* `random-cat.html`: You can place this in any auxiliary form.  It
+* [random-cat.html](https://github.com/LegalServerJS/decorations/blob/master/random-cat.html): You can place this in any auxiliary form.  It
   displays a link saying "Click here to display your visual reward!"
   and when you click it, you see a random picture of a cat, courtesy
   of the Cat API.
 
 ## Second bonus customization: puppies tab
 
-* `puppies.html`: From the "Home/Section Front" area of your
+* [puppies.html](https://github.com/LegalServerJS/decorations/blob/master/puppies.html): From the "Home/Section Front" area of your
   "Processes, Forms, and Profiles," go to "Tab Blocks" and edit one of
   the "tab blocks" that is used by your Home screen.  Add a "Tab"
   called "Puppies" and include this HTML as an instruction.
