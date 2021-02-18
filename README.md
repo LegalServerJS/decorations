@@ -70,11 +70,11 @@ in the page where you want the picture to appear.
 
 The HTML snippets contain URL references to image files hosted on the
 web site of Philadelphia Legal Assistance.  E.g.,
-`https://philalegal.org/html/night.jpg` You can see what each of these
+`https://intranet.philalegal.org/html/night.jpg` You can see what each of these
 images looks like by selecting the URL, copying it, opening a new tab
 in your web browser, and then pasting the URL into the location bar.
 If you want to use a different image, just change the URL.  For
-example, `https://philalegal.org/html/night.jpg` is a nighttime
+example, `https://intranet.philalegal.org/html/night.jpg` is a nighttime
 picture of Philadelphia.  You might want to change this to a URL for a
 nighttime picture of your city.  If you have an image on your computer
 that you want to make available at a URL, talk to your IT director
