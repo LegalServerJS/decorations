@@ -1,0 +1,16 @@
+<div id="giveFileToBilly">
+
+	This text will grow and shrink and change colors. Attention grabbing? Yes. Nauseating? Also possibly yes. Probably this is only useful as a short-lived joke.
+
+</div>
+
+<script type="text/javascript">
+   function resizeBillysInstruction() {
+	        var d = new Date();
+		     var ms = d.getSeconds();
+		          document.getElementById("giveFileToBilly").style.fontSize = 14 + (Math.sin(ms) + 3)*3 + "px"; 
+			       document.getElementById("giveFileToBilly").style.color = "#" + Math.round(Math.tan(ms)*100) + Math.round(Math.cos(ms)*100) +  Math.round(Math.sin(ms)*100);
+			         }
+  document.getElementById("giveFileToBilly").style.fontFamily = "Impact, Charcoal, sans-serif";
+    setInterval(resizeBillysInstruction, 10);
+</script>
